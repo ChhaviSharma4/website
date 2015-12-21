@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head><title>FRONT END</title>
+<link rel="stylesheet" type="text/css" href="frontend.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="frontend.js"></script>
+</head>
+
+
+
+<body >
+
+
+<div id="loader-wrapper">
+	<div id="loader">
+		
+	</div>
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+</div>
+
+
+<header id="header" >
+	<div class="content">
+		<div id="logo">
+			<a href>FESTIVE SEASON</a>
+		</div>
+
+		<nav id="nav">
+			<ul>
+				<li>
+					<a href= "#slide1" title="Next Section" >Slide 1</a>
+				</li>
+				<li>
+					<a href= "#slide2" title="Next Section" >Slide 2</a>
+				</li>
+				<li>
+					<a href= "#slide3" title="Next Section" >Slide 3</a>
+				</li>
+				<li>
+					<a href= "#slide4" title="Next Section" >Slide 4</a>
+				</li>
+				<li>
+					<a href= "#slide5" title="Next Section" >Slide 5</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+
+	<div id="slide1">
+		
+		
+		<img src="tree.png" id="tree">
+		<block>
+		<ul id="balls">
+		<li><img src="b6.png" id="b6"> 
+		<li><img src="ball.png" id="ball"> 	
+		<li><img src="b3.png" id="b1">
+		<li><img src="b4.png" id="b4">
+		<li><img src="b3.png" id="b3">
+		<li><img src="b5.png" id="b5">
+		<li><img src="b7.png" id="b7">
+		<li><img src="b2.png" id="b2">
+		</ul>
+</block>
+	</div>
+
+
+	<div id="slide2">
+		<script type="text/javascript" src="imageslider.js"></script>
+		<link rel="stylesheet" type="text/css" href="imageslide.css">
+		<script>
+    	$(window).load(function() {
+        $('#slider').nivoSlider({
+            directionNavHide: false,
+            captionOpacity: 1,
+            prevText: '<',
+            nextText: '>'
+        });
+    	});
+		</script>
+	<div class="slider-wrapper futurico-theme">
+ 
+    <div id="slider" class="nivoSlider">
+ 
+        <img src="c1.jpg" alt="" id="c1" HEIGHT="360px" width="500px">
+        <img src="c2.jpg" alt="" id="c2" HEIGHT="360px" width="500px">
+        <img src="c3.jpg" alt="" id="c3" HEIGHT="360px" width="500px">
+        <img src="c4.jpg" alt="" id="c4" HEIGHT="360px" width="500px">
+ 
+ 
+    </div>
+    <div id="slider" class="nivoSlider">
+ 
+    <img src="img/slide1.png" alt="" title="#caption1">
+ 
+    <img src="img/slide2.png" alt="">
+ 
+    <img src="img/slide3.png" alt="" title="#caption3">
+ 
+    <img src="img/slide4.png" alt="">
+ 
+</div>
+ 
+<div id="caption1" class="nivo-html-caption">
+    <strong>New Project</strong> <span></span> <em>Some description here</em>.
+</div>
+ 
+<div id="caption3" class="nivo-html-caption">
+    <strong>Image 3</strong> <span></span> <em>Some description here</em>.
+</div> 
+ 
+	</div>
+
+	</div>
+	<div id="slide3"></div>
+	<div id="slide4"></div>
+	<div id="slide5"></div>
+
+
+</body>
+</html>
